@@ -61,6 +61,7 @@ console.log(!(5 > 10 && 15 > 20))
 console.log(!(5 > 10 || 15 > 20))
 
 //* Operador Ternario
+//! Es similar a un if pero en una sola linea
 let edad = 18
 let puedeVotar = (edad >= 18) ? "Si puede votar" : "No puede votar"
 console.log(puedeVotar)
