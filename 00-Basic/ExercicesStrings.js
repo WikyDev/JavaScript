@@ -17,7 +17,7 @@ console.log(longitud.toLowerCase());
 console.log("Cadena 1 \nCadena 2 \nCadena 3");
 // 6. Interpola el valor de una variable en un string
 const nombre = "Andres"
-console.log(`Hola, mi nombre es ${nombre}`)
+console.log(`Hola, mi nombre es ${nombre}`) //Buena practica moderna el usar el `` para interpolar variables en strings.
 // 7. Reemplaza todos los espacios en blanco de un string por guiones
 
 // 8. Comprueba si una cadena de texto contiene una palabra concreta
