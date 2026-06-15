@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-    <title>Pàgina de OnePiece</title>
-    <link href="style.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Henny+Penny&family=Luckiest+Guy&display=swap" rel="stylesheet">
+        <title>Pàgina de OnePiece</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
     <body>
         <!-- Para los encabezados-->
         <h1>One Piece</h1>
         <main>
-            <h2>Imágenes</h2>
+            <h2 id="letra-h2">Imágenes</h2>
             
             <p>Haz clic aquí para ver contenido <a href="https://onepiece.fandom.com/es/wiki/One_Piece_Wiki"
             target="_blank" rel="noopener noreferrer">buenardo ;v</a></p>
 
             <a href="#parrafo-1">Párrafo 1</a></br>
 
-            <a href="https://es.wikipedia.org/wiki/One_Piece" target="_blank" rel="noopener noreferrer"> <img src="./OnePiece.jpg" width="400" height="400" alt="imagen de referencia a OnePiece"></a>
+            <a href="https://es.wikipedia.org/wiki/One_Piece" target="_blank" rel="noopener noreferrer"> <img src="./OnePiece.jpg" class="imagen-inicial" alt="imagen de referencia a OnePiece"></a>
 
             <h3 id="parrafo-1"> Párrafo 1</h3>
             <p>Los Cinco Ancianos están muy preocupados por Imu, pero el gobernante no ve otra opción dadas las maquinaciones de la historia. Mientras los Sombrero de Paja se recuperan tras someter a los Caballeros de Dios, presencian el advenimiento de Imu al Castillo Aurust, rodeado de grandes llamas negras que dan vida a los árboles y edificios.</p>
@@ -25,9 +23,10 @@
             <hr>
             
             <h2>Lista de Mugiwaras</h2>
-            <div>
+            <!--El div sirve para encerrar el área de lo que contendrá, para dar manejo al momento de ajustarlo-->
+            <div class="personajes">
                 <p>Personajes:</p>
-                <ul class="listado-de-personajes">
+                <ul id="listado-de-personajes">
                     <li><strong>Monkey D. Luffy</strong></li>
                     <li><strong>Roronoa Zoro</strong></li>
                     <li><strong>Sanji</strong></li>
@@ -38,8 +37,10 @@
                     <li><strong>Franky</strong></li>
                     <li><strong>Brook</strong></li>
                 </ul>
-                <img src="Mugiwaras.jfif" width="300" height="300" alt="Miembros de la tripulación">
-            
+            </div>
+            <div class="bordes-img"> 
+                <img src="Mugiwaras.jfif" id="bordes-dos" alt="Miembros de la tripulación">
+            </div>
                 <h2><s>Lista de Enemigos</s></h2>
                 <p>Personajes:</p>
                 <ol> 
@@ -47,9 +48,8 @@
                     <li><em>Edward Newgate (Whitebeard)</em></li>
                     <li><em>Mariejois</em></li>
                 </ol>
-            </div>
+                <img src="enemy.jpg" width="300" height="300" alt="Enemigos  de los Mugiwaras">
 
-            <img src="enemy.jpg" width="300" height="300" alt="Enemigos  de los Mugiwaras">
             <hr>
             <!--Formulario con caja de respuesta y botòn de envìo-->
             <form action="/enviar-respuesta">
