@@ -40,3 +40,14 @@ console.log(a);
 console.log(b);
 console.log(a.toUpperCase()); /*Método para convertir a mayúsculas*/
 
+//?Template String: Recomienda el uso de comillas invertidas (``), para interpolar*/
+//?ya que es mejor que concatenar con el (+) y ayuda al momento de usar Frameworks*/
+let inter = `Ejemplo: ${a} ${b}`;
+console.log("Template String\n" + inter);
+
+//?Números: Variables de números*/
+let numero1 = 10;
+let numero2 = new Number(20);
+let numero3 = 30.5;
+
+
